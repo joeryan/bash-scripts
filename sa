@@ -1,0 +1,9 @@
+# File:				: sa
+# Description:			: prints command line arguments framed w/ ':'
+# Author:			: Joe Ryan <joe@clanryan.us>
+# Arguments:			: any, all arguments echoed as :arg:
+
+pre=:
+post=:
+printf $pre"$@"$post
+
